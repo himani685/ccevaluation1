@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+</head>
+<body>
+    <h1>Employee Management System</h1>
+    <br>
+    
+    <select name="" id="department">
+        <option value="" >Department</option>
+        <label for=""type="text">Department</label>
+
+        <option value="">HR</option>
+        <label for="" type="text" id="HR">HR</label>
+
+        <option value="">Finance</option>
+        <label for="" type="text" id="Finance">Finance</label>
+
+        <option value="">Marketing</option>
+        <label for="" type="text" id="Marketing">Marketing</label>
+
+        <option value="">Engineering</option>
+        <label for="" type="text" id="Engineering">Engineering</label>
+
+        <option value="">Operations</option>
+        <label for="" type="text" id="Operations">Operations</label>
+    </select>
+
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <label for="" id="male" type="text">Male</label>
+
+        <option value="female">Female</option>
+        <label for="" id="female" type="text">Female</label>
+
+        <option value="other">Other</option>
+        <label for="" id="other" type="text">Other</label>
+    </select>
+
+    <select name="sort by salary" id="">
+        <option value="low to high">Low to High</option>
+        <label for="" type="text">Low to High</label>
+
+        <option value="high to low">High to Low</option>
+        <label for="" type="text">High to Low</label>
+    </select>
+
+    <table>
+        <thead>
+        <tr>S.no</tr>
+        <tr>Name</tr>
+        <tr>Gender</tr>
+        <tr>Department</tr>
+        <tr>Salary</tr>
+        </thead>
+        
+    </table>
+</body>
+<script>
+    const department = ['HR', 'Finance', 'Marketing', 'Engineering', 'Operations']
+    const results = department.filter(operations)
+    console.log(results)
+    filterValue(operations)
+</script>
+</html>
